@@ -1,0 +1,110 @@
+.header1 {
+	font-family: 'Bowlby One SC', cursive;
+	font-size: 80px;
+	color: #23877f;
+}
+
+.header2 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 40px;
+	color: #f98a07;
+}
+
+.para {
+	font-family: 'Cantarell', sans-serif;
+	font-size: 20px;
+	color: black;
+}
+
+
+header, #container2, #container6 {
+	width: 100%;
+	height: 44em;
+	display: flex;
+}
+
+
+/*THIS IS THE HEADER*/
+
+header {
+	background-color: #fed1cc;
+	align-items: center;
+}
+
+#container1 {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	align-content: center;
+}
+
+#main-pic {
+	position: absolute;
+	left: 50em;
+	width: 40em;
+}
+
+
+/*THIS IS THE ABOUT ME SECTION*/
+
+#container2 {
+	background-image: url('../images/bananas.png');
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+
+/*THIS IS THE FOOD & TV SHOW SECTION*/
+
+#title1, #container4, #title2, #container5 {
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+#title1, #container4 {
+	background-color: white;
+}
+
+#title1, #title2 {
+	height: 15em;
+	justify-content: center;
+}
+
+#container4, #container5 {
+	height: 29em;
+	justify-content: space-around;
+}
+
+.food-pic {
+	height: 15em;
+	border: 5px solid black;
+}
+
+#title2, #container5 {
+	background-color: #fed1cc;
+}
+
+#container5 {
+	flex-wrap: wrap;
+}
+
+.gifs {
+	height: 10em;
+}
+
+
+/*THIS IS THE CONTACT SECTION*/
+
+.socmed-logo {
+	width: 4em;
+}
+
+#container6 {
+	background-image: url('../images/wormz.png');
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
