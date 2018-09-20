@@ -4,7 +4,7 @@
 	color: #23877f;
 }
 
-.header2 {
+.header2, .footer {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 40px;
 	color: #f98a07;
@@ -41,8 +41,12 @@ header {
 
 #main-pic {
 	position: absolute;
-	left: 50em;
-	width: 40em;
+	left: 47em;
+	width: 43em;
+}
+
+#logo {
+	height: 3em;
 }
 
 
@@ -69,18 +73,34 @@ header {
 }
 
 #title1, #title2 {
-	height: 15em;
+	height: 11em;
 	justify-content: center;
-}
-
-#container4, #container5 {
-	height: 29em;
-	justify-content: space-around;
 }
 
 .food-pic {
 	height: 15em;
-	border: 5px solid black;
+	text-align: center;
+	flex-grow: 1;
+}
+
+.card {
+	height: 15em;
+	border: solid 0.4em #23877f;
+	vertical-align: top;
+	margin: 0.5em;
+	display: inline-flex;
+	flex-direction: column;
+}
+
+.footer {
+	text-align: center;
+	margin: 0.5em;
+}
+
+#container4, #container5 {
+	height: 35em;
+	justify-content: space-around;
+	align-items: center;
 }
 
 #title2, #container5 {
@@ -99,7 +119,7 @@ header {
 /*THIS IS THE CONTACT SECTION*/
 
 .socmed-logo {
-	width: 4em;
+	width: 5em;
 }
 
 #container6 {
