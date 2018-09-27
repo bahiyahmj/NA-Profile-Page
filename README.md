@@ -1,2 +1,2 @@
 # NA-Profile-Page
-Next Accademy's profile page assignment.
+Next Academy's profile page assignment.
